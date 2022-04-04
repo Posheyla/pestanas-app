@@ -1,0 +1,26 @@
+.pestanacontainer .titulos a{
+    background-color: lightgrey;
+    padding: 10px ;
+    border: 2px solid black;
+    margin-right: 5px ;
+    cursor: pointer;
+    
+}
+
+.pestanacontainer .titulos a.active{
+    background-color: red;
+}
+
+.pestanacontainer{
+margin: 20px;
+display:flex;
+flex-direction: column;
+align-content: space-between;
+}
+
+.pestanacontainer .content{
+    border: 2px solid black;
+    margin-top: 20px;
+    justify-content: center;
+
+}
